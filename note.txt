@@ -1,0 +1,24 @@
+directory structure
+===================
+relative import: main at root directory
+absolute import: must add {sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))}
+
+st.cache_data: (for data)
+===================
+Purpose: 
+   Used to store the results of function calls that process 
+   or retrieve data that does not change frequently.
+Typical Uses: 
+   Memcaching results from heavy data operations such as 
+   data processing, fetching data from a database, 
+   or slow API calls.
+
+st.cache_resource: (for modeling)
+===================
+Purpose: 
+   Used to store objects that have limited resources 
+   or take a long time to create and rarely change.
+Typical Use: 
+   Cached expensive and infrequently changed objects 
+   or resources for reuse without having to create 
+   them from scratch.

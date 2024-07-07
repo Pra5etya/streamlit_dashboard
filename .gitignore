@@ -1,0 +1,26 @@
+# python environment
+/my_env
+
+# python init
+__init__.py
+dashboard/__init__.py
+sections/__init__.py
+
+# python cache
+sections/__pycache__
+
+# file
+note.ipynb
+
+# raw data
+dataset/air_quality
+dataset/bike_sharing
+dataset/public_ecommerce
+
+# process data
+datamart
+etl/temp
+
+# .env
+.env.secret
+.env.shared
