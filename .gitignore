@@ -8,9 +8,11 @@ sections/__init__.py
 
 # python cache
 sections/__pycache__
+dashboard/__pycache__
 
 # file
 note.ipynb
+note.py
 
 # raw data
 dataset/air_quality
