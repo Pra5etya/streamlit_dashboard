@@ -7,7 +7,9 @@ dashboard/__init__.py
 sections/__init__.py
 
 # python cache
-sections/__pycache__
+sections/air_quality/__pycache__
+sections/bike_sharing/__pycache__
+sections/public_ecommerce/__pycache__
 dashboard/__pycache__
 
 # file
