@@ -15,6 +15,7 @@ dashboard/__pycache__
 # file
 note.ipynb
 note.py
+nltk_data
 
 # raw data
 dataset/air_quality
